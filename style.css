@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  box-sizing: border-box;
+  font-size: 1.25rem;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #001F3B;
+  color: #01FFED;
+}
+
+.clock-containter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #001F3B;
+  color: #01FFED;
+}
+
+.clock {
+  font-size: 2.5rem;
+}
+
+.alarm-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #001F3B;
+  color: #01FFED;
+}
+
+select {
+  padding: 0.2rem;
+  margin: 0.2rem;
+  outline: none;
+  background: #001F3B;
+  color: #01FFED;
+  border: 2px solid #01FFED;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button {
+  background: #01FFED;
+  color: #001F3B;
+  outline: none;
+  border: 2px solid #001F3B;
+  border-radius: 5px;
+  padding: 0.35rem;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+  overflow: auto;
+  background: #01FFED;
+  color: #001F3B;
+  border-radius: 10px;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.stop-btn {
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.stop-btn:hover{
+  background: #001F3B;
+  color: #01FFED;
+}
+
+
+
